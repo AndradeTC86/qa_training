@@ -6,14 +6,15 @@ body {
     background-color: green;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: azure;
     color: green;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-cursos .nav-link.active:hover {
     color: azure;
 }
 
@@ -34,5 +35,14 @@ body {
 }
 
 .text-colored {
+    color: green;
+}
+
+.nav-cursos .nav-link.active {
+    background-color: green;
+    color: azure;
+}
+
+.nav-cursos .nav-link:hover {    
     color: green;
 }
