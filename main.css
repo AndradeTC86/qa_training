@@ -2,10 +2,6 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.navbar-brand {
-    font-family: Pacifico, cursive;
-}
-
 .navbar {
     background-color: green;
 }
@@ -23,4 +19,20 @@ body {
 
 .navbar-toggler {
     background-color: #ffeae6;
+}
+
+#sobre-escola {
+    justify-content: center;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.section-title span {
+    color: green;
+}
+
+#sobre-escola {
+    background-color: lightgreen;
 }

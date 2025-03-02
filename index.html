@@ -14,16 +14,16 @@
 </head>
 <body>
     
-    <header class="navbar navbar-expand-lg sticky-top p-4">
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0">QA Training</h1>
+            <h1 class="navbar-brand m-0 section-title">QA Training</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="#" class="nav-link active">
+                        <a href="#sobre-escola" class="nav-link">
                             <i class="bi bi-house-door me-1"></i>
                             Sobre a escola</a>
                     </li>
@@ -46,6 +46,54 @@
             </nav>
         </div>
     </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-escola">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="./img/fatores_qualidade.jpg" style="width: 700px; height: 430px;" alt="Desenho representando métricas de qualidade de software.">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./img/estrategia_teste.jpg" style="width: 700px; height: 430px;" alt="Vários desenhos representando um conceito de estratégia de teste.">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./img/automacao_teste.jpg" style="width: 700px; height: 430px;" alt="Desenho de uma linha de produção de testes automatizadas.">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./img/centro_bh.jpg" alt="Foto do Parque Municipal de Belo Horizonte." class="d-block w-100 rounded">
+                        </div>                        
+                        <div class="col-md-7">
+                            <h2 class="section-title">Sobre a <span>QA Training</span></h2>
+                            <p>
+                                A QA Training é uma escola de treinamento especializada na formação de analistas de teste e qualidade que oferece cursos abrangentes e atualizados, focados em técnicas de automação de testes, estratégias de qualidade de software e práticas de integração contínua. Nosso objetivo é capacitar profissionais para atender às demandas do mercado de tecnologia, proporcionando um aprendizado prático e eficaz.
+                            </p>
+                            <h3 class="section-title">Sobre a <span>Escola</span></h3>
+                            <p>
+                                Localizada no centro de Belo Horizonte, próximo ao Parque Municipal, a QA Training oferece um ambiente agradável e acolhedor para os alunos. A escola conta com salas de aula equipadas, laboratórios de informática e uma biblioteca com livros e materiais de estudo. Além disso, a escola está próxima de restaurantes, lanchonetes e pontos de ônibus, facilitando o acesso dos alunos.
+                            </p>                        
+                        </div>                
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
