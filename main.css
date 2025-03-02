@@ -7,16 +7,20 @@ body {
 }
 
 .navbar {
-    background-color: #e15f41;
+    background-color: green;
 }
 
 .nav .nav-link.active {
-    background-color: #fff;
-    color: #e15f41;
+    background-color: azure;
+    color: green;
 }
 
 .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
-    color: #fff;
+    color: azure;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
 }
