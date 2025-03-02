@@ -30,7 +30,8 @@ body {
     font-family: Pacifico, cursive;
 }
 
-#sobre-escola {
+#sobre-escola,
+#cursos {
     background-color: lightgreen;
 }
 
@@ -38,11 +39,17 @@ body {
     color: green;
 }
 
-.nav-cursos .nav-link.active {
+.nav-cursos .nav-link.active,
+#fale-conosco button {
     background-color: green;
     color: azure;
 }
 
 .nav-cursos .nav-link:hover {    
     color: green;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
 }
