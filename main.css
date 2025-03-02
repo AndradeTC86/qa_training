@@ -29,10 +29,10 @@ body {
     font-family: Pacifico, cursive;
 }
 
-.section-title span {
-    color: green;
-}
-
 #sobre-escola {
     background-color: lightgreen;
+}
+
+.text-colored {
+    color: green;
 }
